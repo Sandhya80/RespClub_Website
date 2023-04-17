@@ -1,0 +1,229 @@
+body {
+    font-family: Montserrat, sans-serif;    
+    margin: 1px;
+    background-color: bisque;
+    width: 1380px;
+    max-height:fit-content;   
+  }
+  /*navigation-bar section*/
+  
+  #navbar {
+    padding-top: 1rem;
+    background-color: saddlebrown;
+    color: bisque; 
+    height: 90px;
+    padding-bottom: 2rem;
+  }
+  
+  #navbar a {
+    margin-left: 4rem;    
+    align-items: left;
+  }
+
+  #navbar img  {
+    height:auto;
+    width: 1380px;;
+    max-height: 75px;
+    max-width: 150px;
+    display: block;
+    margin-left: 1rem;    
+  }
+
+  #navbar li  {
+    color:bisque;    
+    margin-right: 1.5rem;
+    padding: 0.5rem 1.5rem;
+    display: contents;
+    text-align: left;
+  }
+
+  /* banner section */
+  
+  #banner {    
+    height: 30rem;
+    width: 100%;
+    opacity: 3;
+    display: block;
+    padding-top: 0%;
+    background-image: url("/images/Cricket_bg.jpg");         
+    background-position: center;           
+  } 
+  
+  #banner h1 {
+    color: saddlebrown;
+    font-size: 2rem;    
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+
+  /* about section */
+  
+  .about ul {    
+    margin: 0;
+    display: block;
+  }
+  
+  .about li {
+    color: rgba(19, 64, 85, 0.712);
+    padding: 1rem 1rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .about h3 {       
+    color: saddlebrown;
+    text-align: center;
+    font-weight: bold;
+  }
+  /*Facilities section*/
+
+  #facilities h3{
+    text-align: center;
+    font-weight: bold;
+    color: saddlebrown;   
+  }
+
+  .facility h5  {
+    text-align: center;
+    font-style: italic;
+  }
+
+  .facility  {    
+    height: fit-content;
+    width: 1380px; 
+    margin: 5%;
+  }
+  
+  .facility img  { 
+    display: grid; 
+    grid-column: auto;
+    width: 1200px;
+    height: 300px;
+    padding: 3%;    
+    align-content: center;                           
+  }
+
+  #matches h3 {
+    color: saddlebrown;
+    text-align: center;
+  }  
+
+  .match img  {
+    width: 660px;
+    height: 350px;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: center;
+  }
+  
+  #u19 h3  {
+    color: saddlebrown;
+    text-align: center;
+  }  
+
+  .under19 img { 
+    width: 660px;
+    height: 350px;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: center;
+  }   
+
+  #event-hire h3  {
+    color: saddlebrown;
+    text-align: center;
+  }
+  
+  #sponsors {
+    margin-bottom: 2rem;
+    text-align: center;
+  }  
+  
+  #sponsors h3 {
+    color: saddlebrown;
+    text-align: center;
+  }
+
+  .about p,
+  #facilities p,
+  #matches p,
+  #u19 p,
+  #event-hire p,
+  #sponsors p  {
+    text-align: center;
+    color:chocolate;
+  } 
+  
+  .foobar  {
+    display: flex;;
+    background-color: saddlebrown;
+    height: 7rem;
+    border-top: 2px solid sandybrown;
+    padding: 0;
+    justify-content: space-around;
+  }  
+  
+/* Media queries */
+ 
+  @media only screen and (max-width: 1048px) {
+
+    #banner  {
+      width: 100%;
+     margin-top: auto;        
+     }
+   
+     .facility img {
+       width: 50%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+ 
+     .match img {
+         width: 50%;
+         margin-left: auto;
+         margin-right: auto;
+       }
+   }
+   
+   @media only screen and (max-width: 640px) {
+   
+     #banner h1 {
+       margin-top: 2rem;
+     }
+   
+     #banner {
+       max-height: 200px;
+     }
+   
+     .facility img {
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+ 
+     .match img {
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+       }
+   
+     li {
+       display: block;
+       text-align: center;
+     }
+   }
+   
+   @media only screen and (max-width: 320px) {     
+   
+     .facility img  {
+       width: auto;
+     }
+     .match img  {
+         width: auto;
+     }
+   }
+   
